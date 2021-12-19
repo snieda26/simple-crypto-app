@@ -1,0 +1,22 @@
+.table {
+    border: 3px solid #000;
+    position: relative;
+
+    &__buttons {
+        display: block;
+        position: absolute;
+        left: 103%;
+        top: 23px;
+
+        img {
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 69px;
+            height: 69px;
+        }
+    }
+
+    &__refresh {
+        margin-top: 25px;
+    }
+}

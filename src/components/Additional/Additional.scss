@@ -1,0 +1,15 @@
+.additional {
+    height: 290px;
+    padding: 0 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &__title {
+        font-weight: 900;
+        font-size: 70px;
+        color: #fff;
+    }
+    &__img {
+        margin-left: -20px;
+    }
+}
